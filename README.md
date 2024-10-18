@@ -4,7 +4,7 @@ google drive: https://drive.google.com/drive/u/0/folders/1MqmELp7vAIS01KLqw0yUcA
 - Persons loitering at location (revsc2)
 - Private car parked at loading bay (revsc3)
 - Detect carpark gantry jam (revsc1)
-- Detect jam inside car park (N/A)
+- Detect jam inside car park (revsc5)
 - Turnstiles jam (revsc2)
 - Activites at open area after hours (revsc4)
 
@@ -31,3 +31,10 @@ revsc4
 ------------
 this script focuses on detecting people after a certain time of the
 day to alert security of intruders, thus "nightwatch".
+
+revsc5
+------------
+this script focuses on detecting cars that rest in a bounding box
+representing the open parts of the road. If a car rests in that 
+bounding box for too long, it can be assumed to be blocking the
+car park.
