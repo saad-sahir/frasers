@@ -4,7 +4,7 @@ import datetime
 from collections import defaultdict
 from ultralytics import YOLO
 
-def person_loitering(video):
+def person_or_package(video):
     model = YOLO("weights/yolov9t.pt")
     package_model = YOLO("weights/package.pt")
     cap = cv2.VideoCapture(video)
@@ -116,4 +116,4 @@ def person_loitering(video):
 
 if __name__ == '__main__':
     video = 'cctv/dropoff_loitering.mp4'
-    results = person_loitering(video)
+    results = person_or_package(video)
