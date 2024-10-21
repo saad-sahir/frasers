@@ -37,7 +37,7 @@ def nightwatch(video):
                 else:
                     x_min, y_min, x_max, y_max, confidence, class_id = detection
                     id = None
-                if confidence > 0.85 and int(class_id) == 0:
+                if confidence > 0.55 and int(class_id) == 0:
                     person_id = int(id)
                     color = (255, 0, 0) if current_hour < 18 else (0, 0, 255) 
                     cv.putText(
