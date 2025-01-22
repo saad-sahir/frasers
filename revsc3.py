@@ -25,10 +25,7 @@ def loading_bay(video):
         current_time = current_frame / fps
         if current_frame % 3 == 0:
             
-            height, width = frame.shape[:2]
-            frame = cv2.line(frame, (0, int(height*0.35)), (width, int(height*0.35)), (255, 0, 0), 5)
-            frame = cv2.line(frame, (int(width*0.8), 0), (int(width*0.8), height), (255, 0, 0), 5)
-            
+            height, width = frame.shape[:2]            
             ## width < 0.8
             ## height > 0.35
             
