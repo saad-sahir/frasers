@@ -1,0 +1,83 @@
+  {
+    "building": "Alexandra Point",
+    "cameras":[
+        {
+            "camera_id": "TWR-L1-C26",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.1/stream1/ch1",
+            "scenario_ids": ["PPS"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "TWR-L1-C27",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.2/stream1/ch1",
+            "scenario_ids": ["PPS", "TDJ"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "TWR-L2-C6",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.8/stream1/ch1",
+            "scenario_ids": ["PPS", "TDJ"],
+            "building":"AP"
+        }, {
+            "camera_id": "MSCP-L1-C1",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.69/stream1/ch1",
+            "scenario_ids": ["CIJ"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L1-C2",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.70/stream1/ch1",
+            "scenario_ids": ["CIJ"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L1-C3",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.71/stream1/ch1",
+            "scenario_ids": ["CIJ"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L1-C4",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.72/stream1/ch1",
+            "scenario_ids": ["CIJ"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L1-C5",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.73/stream1/ch1",
+            "scenario_ids": ["CIJ"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L2-C15",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.88/stream1/ch1",
+            "scenario_ids": ["AOH"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L2-C25",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.98/stream1/ch1",
+            "scenario_ids": ["PLB"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L2-C7",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.80/stream1/ch1",
+            "scenario_ids": ["DOP"],
+            "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L2-C8",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.81/stream1/ch1",
+            "scenario_ids": ["DOP"],
+             "building":"AP"
+        },
+        {
+            "camera_id": "MSCP-L2-C4",
+            "rtsp_url": "rtsp://apVAadmin:Frasers123!@192.168.124.77/stream1/ch1",
+            "scenario_ids": ["CGJ"],
+            "building":"AP"
+        }
+    ]
+    
+}

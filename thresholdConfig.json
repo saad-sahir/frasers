@@ -1,0 +1,14 @@
+{
+    "DOP": {
+        "maximum_allowed_time": 100
+    },
+    "PPS": {
+        "maximum_allowed_time": 10
+    },
+    "AOH": {
+        "current_hour": 18
+    },
+    "CIJ": {
+        "maximum_allowed_time": 60
+    }
+}
