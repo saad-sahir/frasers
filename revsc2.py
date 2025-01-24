@@ -5,7 +5,7 @@ from collections import defaultdict
 from ultralytics import YOLO
 
 def person_or_package(video):
-    model = YOLO("weights/yolov9t.pt")
+    model = YOLO("weights/yolov9m.pt")
     package_model = YOLO("weights/package.pt")
     cap = cv2.VideoCapture(video)
     start_times = defaultdict(lambda: None)

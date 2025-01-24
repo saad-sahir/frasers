@@ -3,7 +3,7 @@ import cv2 as cv
 from collections import defaultdict
 
 def carpark(video):
-    model = YOLO('weights/yolov9t.pt')
+    model = YOLO("weights/yolov9m.pt")
     cap = cv.VideoCapture(video)
     start_time = None
     trigger = False

@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from collections import defaultdict
 
 def loading_bay(video):
-    model = YOLO('weights/yolov9t.pt')
+    model = YOLO("weights/yolov9m.pt")
     cap = cv2.VideoCapture(video)
     notifications = defaultdict(lambda: False)
     fps = cap.get(cv2.CAP_PROP_FPS)

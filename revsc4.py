@@ -4,7 +4,7 @@ import cv2 as cv
 import base64
 
 def nightwatch(video):
-    model = YOLO('weights/yolov9t.pt')
+    model = YOLO("weights/yolov9m.pt")
     cap = cv.VideoCapture(video)
     current_hour, time_str = int(datetime.datetime.now().hour), datetime.datetime.now().strftime("%H:%m")
     # current_hour, time_str = 19, "19:04"
