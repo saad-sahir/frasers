@@ -5,7 +5,7 @@ from collections import defaultdict
 from ultralytics import YOLO 
 
 def dropoff_car(video):
-    model = YOLO("weights/yolov9t.pt")
+    model = YOLO("weights/yolov9m.pt")
     cap = cv2.VideoCapture(video)
     
     start_times = defaultdict(lambda: None)
