@@ -1,2 +1,6 @@
+torch
+torchvision
 ultralytics
-opencv-python
+opencv-python-headless
+huggingface
+mistralai
